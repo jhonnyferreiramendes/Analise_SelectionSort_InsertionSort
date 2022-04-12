@@ -32,15 +32,18 @@ public class AnaliseAssintotica {
        System.out.println("************* INSERTION SORT *****************");
        
        Metodos.insertionAnalise(vetorA);
-       System.out.println("Vetor A --> melhor caso: " + Arrays.toString(vetorA));
+       System.out.println("Melhor caso: {1,5,7,8,9} ");
+       System.out.println("Resultado: Vetor A  melhor caso: " + Arrays.toString(vetorA));
        System.out.println("--------------------------------------------------------------");
        
        Metodos.insertionAnalise(vetorB);
-       System.out.println("Vetor B: --> pior caso: " + Arrays.toString(vetorB));
+       System.out.println("Pior caso: {9,8,7,5,1} ");
+       System.out.println("Resultado: Vetor B: pior caso: " + Arrays.toString(vetorB));
        System.out.println("--------------------------------------------------------------");
        
        Metodos.insertionAnalise(vetorC);
-       System.out.println("Vetor C: --> caso médio: " + Arrays.toString(vetorC));
+       System.out.println("Caso médio: {5,7,6,9,1} ");
+       System.out.println("Resultado: Vetor C: caso médio: " + Arrays.toString(vetorC));
        System.out.println("--------------------------------------------------------------");
        
        System.out.println("***************************************************************");
@@ -49,15 +52,18 @@ public class AnaliseAssintotica {
        System.out.println("************* SELECTION SORT *****************");
        
        Metodos.selectionAnalise(vetorA);
-       System.out.println("Vetor A --> melhor caso: " + Arrays.toString(vetorA));
+       System.out.println("Melhor caso: {1,5,7,8,9} ");
+       System.out.println("Resultado: Vetor A melhor caso: " + Arrays.toString(vetorA));
        System.out.println("--------------------------------------------------------------");
        
        Metodos.selectionAnalise(vetorB);
-       System.out.println("Vetor B: --> pior caso: " + Arrays.toString(vetorB));
+       System.out.println("Pior caso: {9,8,7,5,1} ");
+       System.out.println("Resultado: Vetor B: pior caso: " + Arrays.toString(vetorB));
        System.out.println("--------------------------------------------------------------");
        
        Metodos.selectionAnalise(vetorC);
-       System.out.println("Vetor C: --> caso médio: " + Arrays.toString(vetorC));
+       System.out.println("Caso médio: {5,7,6,9,1} ");
+       System.out.println("Resultado: Vetor C: caso médio: " + Arrays.toString(vetorC));
        System.out.println("--------------------------------------------------------------"); 
     }
     
